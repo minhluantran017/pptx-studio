@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+output/reference/
+output/*.pptx
+output/slides/
+output/*.pdf
+output/contact-sheet.png

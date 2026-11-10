@@ -1,0 +1,18 @@
+{
+  "name": "pptx-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable, editable PowerPoint generation toolkit built with PptxGenJS",
+  "scripts": {
+    "build:sample": "node src/build-sample.js",
+    "render": "node scripts/render.js",
+    "contact-sheet": "node scripts/contact-sheet.js",
+    "validate": "node scripts/validate-pptx.js"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "pptxgenjs": "^4.0.1",
+    "sharp": "^0.34.5"
+  }
+}

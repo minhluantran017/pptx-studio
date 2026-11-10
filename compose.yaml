@@ -1,0 +1,10 @@
+services:
+  studio:
+    build: .
+    working_dir: /workspace
+    volumes:
+      - ./briefs:/workspace/briefs:ro
+      - ./output:/workspace/output
+      - ./scripts:/workspace/scripts:ro
+      - ./src:/workspace/src:ro
+    command: sh -lc "npm run build:sample && npm run validate && npm run render && npm run contact-sheet"

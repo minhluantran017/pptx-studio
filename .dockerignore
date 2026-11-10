@@ -1,0 +1,7 @@
+node_modules
+output/slides
+output/reference
+output/*.pdf
+output/contact-sheet.png
+Sample-technical-slide.pptx
+.git
